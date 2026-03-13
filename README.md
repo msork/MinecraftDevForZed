@@ -11,7 +11,7 @@
 This repo is where I will host scripts for Zed that will create the necessary folders for developing Minecraft Mods and Plugins!
 Feel free to contribute and hopefully we can make Zed a first party Minecraft Development IDE!
 
-## [IN PROGRESS] - Initial Setup for UNIX Platforms (Linux / Mac / FreeBSD)
+## Initial Setup for UNIX Platforms (Linux / Mac / FreeBSD)
 
 Please copy and paste this command to clone these scripts on UNIX Platforms:
 
