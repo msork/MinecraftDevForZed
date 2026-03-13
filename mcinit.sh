@@ -36,7 +36,7 @@ remove_mcgen() {
         rm -rv $DATADIR
     fi
 
-    if [ -f $BINARY ]; then
+    if [ -L $BINARY ]; then
         rm -v $BINARY
     fi
 
