@@ -25,6 +25,10 @@ Next, make all relevant scripts executable and initialize the script by running 
 
 Now you will be able to run `mcgen <DIRECTORY> --<PLATFORM>` from anywhere. 
 
+## [NOT STARTED] - Initial Setup for Windows Platforms (Windows 10/11)
+
+TODO
+
 ## [IN PROGRESS] - Creating folders for Plugins
 
 Depending on the plugin platform you'd like to use, add it as an argument to the mcgen.sh script.
