@@ -17,9 +17,9 @@ Please copy and paste this command to clone these scripts on UNIX Platforms:
 
 `git clone --recurse-submodules https://github.com/msork/MinecraftDevForZed && cd MinecraftDevForZed`
 
-Next, make all relevant scripts executable and initialize the script by running these commands:
+Next, make the mcinit script executable and run it by following these commands:
 
-`chmod +x ./mcinit.sh && chmod +x ./unix-scripts/*.sh`
+`chmod +x ./mcinit.sh`
 
 `./mcinit.sh` 
 
