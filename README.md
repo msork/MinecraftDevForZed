@@ -32,18 +32,18 @@ TODO
 ## [IN PROGRESS] - Developing Plugins
 
 Depending on the plugin platform you'd like to use, add it as an argument to the mcgen.sh script.
-For example this is how you generate the necessary folders for SpongeAPI in the ./spongeTest directory.:
+For example this is how you generate the necessary folders for SpongeAPI in the ./SpongePlugins/<PROJECT_NAME> directory.:
 
-`mcgen ./spongeTest --sponge`
+`mcgen ./SpongePlugins --sponge`
 
 Finally, you will get asked questions for initial setup, answer them and you will have the necessary folders for the plugin!
 
 ## [NOT STARTED] - Developing Mods
 
 Depending on the mod platform you'd like to use, add it as an argument to the mcgen.sh script.
-For example this is how you generate the necessary folders for FabricAPI in the ./fabricTest directory.:
+For example this is how you generate the necessary folders for FabricAPI in the ./FabricMods/<PROJECT_NAME> directory.:
 
-`mcgen ./fabricTest --fabric`
+`mcgen ./FabricMods --fabric`
 
 Finally, you will get asked questions for initial setup, answer them and you will have the necessary folders for the mod!
 
@@ -53,9 +53,9 @@ When using any `mcgen` command, mcgen will generate json files for each project 
 
 You are able to use these json files to create your own json template that mcgen can use. This is for quicker setup.
 
-Simply run the following command to use mcgen in json mode (for example with Spigot in the ./spigotTest folder with the json file in the user's Downloads folder):
+Simply run the following command to use mcgen in json mode (for example with Spigot in the ./SpigotPlugins/<PROJECT_NAME> folder with the json file in the user's Downloads folder being called spigotTest.json):
 
-`mcgen ./spigotTest --spigot --json ~/Downloads/spigotTest.json`
+`mcgen ./SpigotPlugins --spigot --json ~/Downloads/spigotTest.json`
 
 It will generate everything and if there are any empty or invalid values, it will ask you to clarify. Then it will generate the folders.
 
