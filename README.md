@@ -57,17 +57,17 @@ It will generate everything and if there are any empty or invalid values, it wil
 
 ## Currently Supported Platforms
 
-- [![Sponge Icon](resources/assets/icons/platform/Sponge_dark.png?raw=true) **Sponge**](https://www.spongepowered.org/)
+- [![Sponge Icon](assets/platform-icons/Sponge_dark.png?raw=true) **Sponge**](https://www.spongepowered.org/)
 
 ## Planned to be Supported Platforms
 
-- [![Spigot Icon](resources/assets/icons/platform/Spigot.png?raw=true) **Spigot**](https://spigotmc.org/) ([![Paper Icon](resources/assets/icons/platform/Paper.png?raw=true) Paper](https://papermc.io/))
-- [![Architectury Icon](resources/assets/icons/platform/Architectury.png?raw=true) **Architectury**](https://github.com/architectury/architectury-api)
-- [![Forge Icon](resources/assets/icons/platform/Forge.png?raw=true) **Minecraft Forge**](https://forums.minecraftforge.net/)
-- [![Neoforge Icon](resources/assets/icons/platform/Neoforge.png?raw=true) **Neoforge**](https://neoforged.net)
-- [![Fabric Icon](resources/assets/icons/platform/Fabric.png?raw=true) **Fabric**](https://fabricmc.net)
-- [![Mixins Icon](resources/assets/icons/platform/Mixins_dark.png?raw=true) **Mixins**](https://github.com/SpongePowered/Mixin)
-- [![BungeeCord Icon](resources/assets/icons/platform/BungeeCord.png?raw=true) **BungeeCord**](https://www.spigotmc.org/wiki/bungeecord/) ([![Waterfall Icon](resources/assets/icons/platform/Waterfall.png?raw=true) Waterfall](https://github.com/PaperMC/Waterfall))
-- [![Velocity Icon](resources/assets/icons/platform/Velocity.png?raw=true) **Velocity**](https://velocitypowered.com/)
-- [![Adventure Icon](resources/assets/icons/platform/Adventure.png?raw=true) **Adventure**](https://kyori.net/)
-- [![Quilt Icon](resources/assets/icon/platform/Quilt.png?raw=true) **Quilt**](https://quiltmc.org/)
+- [![Spigot Icon](assets/platform-icons/Spigot.png?raw=true) **Spigot**](https://spigotmc.org/) ([![Paper Icon](assets/platform-icons/Paper.png?raw=true) Paper](https://papermc.io/))
+- [![Architectury Icon](assets/platform-icons/Architectury.png?raw=true) **Architectury**](https://github.com/architectury/architectury-api)
+- [![Forge Icon](assets/platform-icons/Forge.png?raw=true) **Minecraft Forge**](https://forums.minecraftforge.net/)
+- [![Neoforge Icon](assets/platform-icons/Neoforge.png?raw=true) **Neoforge**](https://neoforged.net)
+- [![Fabric Icon](assets/platform-icons/Fabric.png?raw=true) **Fabric**](https://fabricmc.net)
+- [![Mixins Icon](assets/platform-icons/Mixins.png?raw=true) **Mixins**](https://github.com/SpongePowered/Mixin)
+- [![BungeeCord Icon](assets/platform-icons/BungeeCord.png?raw=true) **BungeeCord**](https://www.spigotmc.org/wiki/bungeecord/) ([![Waterfall Icon](assets/platform-icons/Waterfall.png?raw=true) Waterfall](https://github.com/PaperMC/Waterfall))
+- [![Velocity Icon](assets/platform-icons/Velocity.png?raw=true) **Velocity**](https://velocitypowered.com/)
+- [![Adventure Icon](assets/platform-icons/Adventure.png?raw=true) **Adventure**](https://kyori.net/)
+- [![Quilt Icon](assets/platform-icons/Quilt.png?raw=true) **Quilt**](https://quiltmc.org/)
