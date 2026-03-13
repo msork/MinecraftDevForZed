@@ -37,7 +37,7 @@ install_mcgen() {
 
 remove_mcgen() {
     if [ -d $TEMPLATESDIR ]; then
-        rm -rf $TEMPLATESDIR
+        rm -r $TEMPLATESDIR
         echo "removed directory '$TEMPLATESDIR'"
     fi
 
