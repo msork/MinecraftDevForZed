@@ -7,6 +7,11 @@ BINARY="$BINARYDIR/mcgen"
 CONFIGDIR="$HOME/.config/mcgen"
 TEMPLATESDIR="$DATADIR/templates"
 
+if [[ ! -t 0 ]]; then
+    echo "This command must be run in a terminal." >&2
+    exit 1
+fi
+
 install_mcgen() {
     mkdir -pv $DATADIR
     mkdir -pv $BINARYDIR
