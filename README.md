@@ -11,7 +11,7 @@
 This repo is where I will host scripts for Zed that will create the necessary folders for developing Minecraft Mods and Plugins!
 Feel free to contribute and hopefully we can make Zed a first party Minecraft Development IDE!
 
-## Initial Setup for UNIX Platforms (Linux / Mac / FreeBSD)
+## [IN PROGRESS] - Initial Setup for UNIX Platforms (Linux / Mac / FreeBSD)
 
 Please copy and paste this command to clone these scripts on UNIX Platforms:
 
@@ -24,6 +24,10 @@ Next, make all relevant scripts executable and initialize the script by running 
 `./mcinit.sh` 
 
 Now you will be able to run `mcgen <DIRECTORY> --<PLATFORM>` from anywhere. 
+
+## [NOT STARTED] - Initial Setup for Windows Platforms (Windows 10/11)
+
+TODO
 
 ## [IN PROGRESS] - Creating folders for Plugins
 
@@ -57,17 +61,17 @@ It will generate everything and if there are any empty or invalid values, it wil
 
 ## Currently Supported Platforms
 
-- [![Sponge Icon](assets/platform-icons/Sponge_dark.png?raw=true) **Sponge**](https://www.spongepowered.org/)
+- <a href="https://www.spongepowered.org/"><img src="assets/platform-icons/Sponge.png?raw=true" width="16" height="16"/> <b>Sponge</b><a/>
 
 ## Planned to be Supported Platforms
 
-- [![Spigot Icon](assets/platform-icons/Spigot.png?raw=true) **Spigot**](https://spigotmc.org/) ([![Paper Icon](assets/platform-icons/Paper.png?raw=true) Paper](https://papermc.io/))
-- [![Architectury Icon](assets/platform-icons/Architectury.png?raw=true) **Architectury**](https://github.com/architectury/architectury-api)
-- [![Forge Icon](assets/platform-icons/Forge.png?raw=true) **Minecraft Forge**](https://forums.minecraftforge.net/)
-- [![Neoforge Icon](assets/platform-icons/Neoforge.png?raw=true) **Neoforge**](https://neoforged.net)
-- [![Fabric Icon](assets/platform-icons/Fabric.png?raw=true) **Fabric**](https://fabricmc.net)
-- [![Mixins Icon](assets/platform-icons/Mixins.png?raw=true) **Mixins**](https://github.com/SpongePowered/Mixin)
-- [![BungeeCord Icon](assets/platform-icons/BungeeCord.png?raw=true) **BungeeCord**](https://www.spigotmc.org/wiki/bungeecord/) ([![Waterfall Icon](assets/platform-icons/Waterfall.png?raw=true) Waterfall](https://github.com/PaperMC/Waterfall))
-- [![Velocity Icon](assets/platform-icons/Velocity.png?raw=true) **Velocity**](https://velocitypowered.com/)
-- [![Adventure Icon](assets/platform-icons/Adventure.png?raw=true) **Adventure**](https://kyori.net/)
-- [![Quilt Icon](assets/platform-icons/Quilt.png?raw=true) **Quilt**](https://quiltmc.org/)
+- <a href="https://spigotmc.org/"><img src="assets/platform-icons/Spigot.png?raw=true" width="16" height="16"/> <b>Spigot</b><a/> (<a href="https://papermc.io/"><img src="assets/platform-icons/Paper.png?raw=true" width="16" height="16"/> Paper<a/>)
+- <a href="https://github.com/architectury/architectury-api"><img src="assets/platform-icons/Architectury.png?raw=true" width="16" height="16"/> <b>Architectury</b><a/>
+- <a href="https://forums.minecraftforge.net/"><img src="assets/platform-icons/Forge.png?raw=true" width="16" height="16"/> <b>Forge</b><a/>
+- <a href="https://neoforged.net/"><img src="assets/platform-icons/Neoforge.png?raw=true" width="16" height="16"/> <b>Neoforge</b><a/>
+- <a href="https://fabricmc.net"><img src="assets/platform-icons/Fabric.png?raw=true" width="16" height="16"/> <b>Fabric</b><a/>
+- <a href="https://quiltmc.org/"><img src="assets/platform-icons/Quilt.png?raw=true" width="16" height="16"/> <b>Quilt</b><a/>
+- <a href="https://github.com/SpongePowered/Mixin"><img src="assets/platform-icons/Mixins.png?raw=true" width="16" height="16"/> <b>Mixins</b><a/>
+- <a href="https://www.spigotmc.org/wiki/bungeecord/"><img src="assets/platform-icons/BungeeCord.png?raw=true" width="16" height="16"/> <b>BungeeCord</b><a/> (<a href="https://github.com/PaperMC/Waterfall"><img src="assets/platform-icons/Waterfall.png?raw=true" width="16" height="16"/> Waterfall<a/>)
+- <a href="https://velocitypowered.com/"><img src="assets/platform-icons/Velocity.png?raw=true" width="16" height="16"/> <b>Velocity</b><a/>
+- <a href="https://kyori.net/"><img src="assets/platform-icons/Adventure.png?raw=true" width="16" height="16"/> <b>Adventure</b><a/>
