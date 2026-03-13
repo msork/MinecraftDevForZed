@@ -29,7 +29,7 @@ Now you will be able to run `mcgen <DIRECTORY> --<PLATFORM>` from anywhere.
 
 TODO
 
-## [IN PROGRESS] - Creating folders for Plugins
+## [IN PROGRESS] - Developing Plugins
 
 Depending on the plugin platform you'd like to use, add it as an argument to the mcgen.sh script.
 For example this is how you generate the necessary folders for SpongeAPI in the ./spongeTest directory.:
@@ -38,7 +38,7 @@ For example this is how you generate the necessary folders for SpongeAPI in the 
 
 Finally, you will get asked questions for initial setup, answer them and you will have the necessary folders for the plugin!
 
-## [NOT STARTED] - Creating folders for Mods
+## [NOT STARTED] - Developing Mods
 
 Depending on the mod platform you'd like to use, add it as an argument to the mcgen.sh script.
 For example this is how you generate the necessary folders for FabricAPI in the ./fabricTest directory.:
