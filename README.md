@@ -49,7 +49,7 @@ Finally, you will get asked questions for initial setup, answer them and you wil
 
 ## [NOT STARTED] - Using JSON Files for Advanced Setup
 
-When using any `mcgen` command, mcgen will generate json files for each project at $HOME/.mcgen/<PROJECT_NAME>.json.
+When using any `mcgen` command, mcgen will generate json files for each project at $HOME/.local/share/mcgen/projects/<PROJECT_NAME>.json.
 
 You are able to use these json files to create your own json template that mcgen can use. This is for quicker setup.
 

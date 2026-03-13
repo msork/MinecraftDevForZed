@@ -5,6 +5,7 @@ DATADIR="$HOME/.local/share/mcgen"
 BINARYDIR="$HOME/.local/bin"
 BINARY="$BINARYDIR/mcgen"
 CONFIGDIR="$HOME/.config/mcgen"
+TEMPLATESDIR="$DATADIR/templates"
 
 install_mcgen() {
     mkdir -pv $DATADIR
@@ -27,11 +28,19 @@ install_mcgen() {
 
     ln -sv $DATADIR/scripts/mcgen.sh $BINARY
 
+    cp -r ./templates $TEMPLATESDIR
+    echo "'./templates' -> '$TEMPLATESDIR'"
+
     echo "Successfully installed mcgen!"
     exit 0
 }
 
 remove_mcgen() {
+    if [ -d $TEMPLATESDIR ]; then
+        rm -rf $TEMPLATESDIR
+        echo "removed directory '$TEMPLATESDIR'"
+    fi
+
     if [ -d $DATADIR ]; then
         rm -rv $DATADIR
     fi
